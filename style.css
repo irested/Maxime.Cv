@@ -1,0 +1,365 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: black;
+    position: relative;
+}
+
+.vertical-center {
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    padding: 2em;
+}
+
+.container-custom {
+    padding: 2em;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1.5px;
+    line-height: 1.5em;
+}
+
+.jumbotron {
+    text-align: center;
+}
+
+
+/*header*/
+
+.navbar {
+    background-color: #000000;
+    height: 50px;
+    border-bottom: 2px solid #0F8376;
+    text-transform: uppercase;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.navbar-inverse .hamburger {
+    border: 1px solid #0F8376;
+}
+
+.navbar-inverse .hamburger:hover {
+    background-color: #0F8376;
+}
+
+.navbar-inverse .navbar-toggle:focus {
+    background-color: #0f8376;
+}
+
+.category a {
+    outline: none;
+}
+
+
+/*END*/
+
+
+/*JUMBOTRON*/
+
+.bg {
+    background: url('img/bg.jpg') no-repeat center center;
+    position: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    top: 50px;
+    left: 0;
+    z-index: -1;
+}
+
+.jumbotron {
+    height: 350px;
+    color: white;
+    text-shadow: #444 0 1px 1px;
+    background: transparent;
+    margin: 50px 0 0 0;
+}
+
+.jumbotron h1 {
+    margin: 0
+}
+
+.name {
+    margin: 0;
+}
+
+.btn {
+    background: none;
+    border: 1px solid white;
+}
+
+.btn:hover {
+    background-color: #0F8376;
+    border: 1px solid #0F8376;
+}
+
+.btn a {
+    color: white;
+    text-shadow: none;
+}
+
+.btn a:hover {
+    text-decoration: none;
+}
+
+.btn a {
+    outline: none;
+}
+
+.btn-primary.active.focus,
+.btn-primary.active:focus,
+.btn-primary.active:hover,
+.btn-primary.focus:active,
+.btn-primary:active:focus,
+.btn-primary:active:hover,
+.open>.dropdown-toggle.btn-primary.focus,
+.open>.dropdown-toggle.btn-primary:focus,
+.open>.dropdown-toggle.btn-primary:hover {
+    background-color: #0F8376;
+    border: none;
+}
+
+
+/*end*/
+
+
+/*CONTENT*/
+
+.content {
+    color: white;
+}
+
+.content h2 {
+    margin-top: 0;
+    margin-bottom: 1em;
+    padding: 0 10px;
+    border-left: 2px solid #0F8376;
+}
+
+.exp,
+.work,
+.skill,
+.contact {
+    background-color: #171717;
+    padding: 2.5em 0;
+}
+
+.bg-transition {
+    background: url('img/bg2.jpg') no-repeat center center;
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+    height: 450px;
+    left: 0;
+    bottom: 0;
+    z-index: -2;
+}
+
+
+/*END*/
+
+
+/*ABOUT*/
+
+.about {
+    background-color: black;
+    padding: 2.5em 0;
+}
+
+
+/*END*/
+
+
+/*EXP*/
+
+.exp {
+    text-align: center;
+}
+
+.marg {
+    margin-bottom: 2em;
+}
+
+.border-bot {
+    width: 50%;
+    margin: auto auto 2em auto;
+    border-bottom: 2px solid #0F8376;
+}
+
+
+/*END*/
+
+
+/*DOC*/
+
+.doc {
+    text-align: center;
+}
+
+.doc h3 {
+    margin: 0 0 0.5em 0;
+}
+
+
+/*END*/
+
+
+/*SKILL*/
+
+.skill .row {
+    margin-bottom: 2em;
+}
+
+#skill-center {
+    text-align: center;
+}
+
+#skill-center2 {
+    text-align: center;
+}
+
+#skill-center3 {
+    text-align: center;
+}
+
+.skill i {
+    font-size: 75px;
+}
+
+.marge-col {
+    margin-bottom: 2 em;
+}
+
+
+/*END*/
+
+
+/*WORK*/
+
+.work img {
+    margin-bottom: 2em;
+}
+
+.work img:hover {
+    opacity: 1;
+    -webkit-animation: flash 1.5s;
+    animation: flash 1.5s;
+}
+
+
+/*CONTACT*/
+
+.contact-center {
+    text-align: center;
+}
+
+.contact p, ul {
+    text-align: center;
+}
+
+.contact i {
+    font-size: 20px;
+}
+
+.contact ul {
+    list-style: none;
+    display: inline;
+}
+
+
+/*END*/
+
+@-webkit-keyframes flash {
+    0% {
+        opacity: .4;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes flash {
+    0% {
+        opacity: .4;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+/*END*/
+
+
+/*FOOTER*/
+
+footer {
+    background-color: #000000;
+    width: 100%;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+}
+
+footer li {
+    margin-left: 1em;
+    display: inline;
+}
+
+footer li i {
+    font-size: 70px;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: #0F8376;
+}
+
+footer a:focus {
+    color: #0F8376;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+/*END*/
+
+
+/*MEDIA*/
+
+@media screen and (max-width: 767px) {
+    .navbar-collapse .bg-hamburger {
+        width: 100%;
+        margin: 0;
+        background-color: #515151;
+        text-align: center;
+        border-bottom: 1px solid #0F8376;
+    }
+}
